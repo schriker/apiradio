@@ -1,0 +1,26 @@
+{
+  "name": "jar-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js",
+    "dev": "nodemon -r dotenv/config app.js dotenv_config_path=.env.development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.15",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "graphql-redis-subscriptions": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.merge": "^4.6.2",
+    "mongoose": "^5.8.3",
+    "rate-limiter-flexible": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
